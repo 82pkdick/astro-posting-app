@@ -1,0 +1,189 @@
+:root {
+  --default-ft-size: 18px;
+  --tfmspeed: 0.3s;
+  --expandspeed: 0.1s;
+
+
+  /* Media Size */
+  --wide16x9size: 1800px;
+  --more-wide-pcsize: 1550px;
+  --wide-pcsize: 1024px;
+  --tablet-size: 912px;
+  --mini-tablet-size: 768px;
+  --mobile-size: 540px;
+  --mobilephone-size: 479px;
+
+  /* Site header height. */
+  --site_header_h: 48;
+  /* Preview Panel header height. */
+  --preview_header_h: 38;
+  /* Site footer height. */
+  --site_footer_h: 60;
+  /* Min-height of contents area. */
+  --contents_min_h: 80;
+
+
+  /* ========== Font =========== */
+  --ft-color-default: #333;
+  --ft-color-mid: #555;
+  --ft-color-weak: #666;
+  --ft-color-light-weak: #888;
+  --ft-emphasis: firebrick;
+  --ft-active: royalblue;
+
+  /* ======== Titles =========== */
+  --card-title: royalblue;
+  --post-title: darkolivegreen;
+
+  /* =========== Link =============== */
+  --link-color: teal;
+  --link-hover: orange;
+  --link-animation: orange;
+  --link-color-current: orange;
+  --link-disabled: #888;
+
+  /* ========= Background =========*/
+  --bg-default: #efefef;
+  --bg-rear: #efe6db;
+  --bg-front: #faf5ef;
+  --selection-bg: palegoldenrod;
+  --emphasis-bg: gold;
+  --active-bg: lavender;
+
+  /* ========== Border =========== */
+  --bdr-color-default: #a3a3a3;
+  --mid-bdr: #bfbfbf;
+  --thin-bdr: #c8c8c8;
+  --thin-bdr-light: #d3d3d3;
+
+  /* ====== Some Elements ======== */
+  /* ~~~ Icon ~~~ */
+  --icon-color-default: #555;
+  --icon-color-strong: #333;
+  --base-icon-stroke: #555;
+  --base-icon-fill: #afafaf;
+  --custom-icon-fill: #8f8f8f;
+  /* ~~~ Scrollbar ~~~ */
+  --scrollbar-bg: #efe6db;
+  --scrollbar-bdr: #bababa;
+  --scrollbar-thumb-bdr: #bababa;
+  --scrollbar-thumb-bg: #d8d8d8;
+  --scrollbar-thumb-hover-bg: #c8c8c8;
+
+  /* ====== Component Items ======== */
+  /* ~~~ Site Item ~~~ */
+  --site-title-color: royalblue;
+  --site-logo-color: #2e8b57;
+  --site-title-hover-color: orange;
+  /* ~~~ Menu Item ~~~ */
+  --aside-menu-title: #333;
+  --aside-menu-text: #333;
+  --aside-menu-bdr: #333;
+  --aside-menu-bg: #333;
+  /* ~~~ Posts List ~~~ */
+  --list-header-title-color: darkolivegreen;
+  --list-subtitle: rgb(102, 126, 60);
+  --list-subtitle-hover: darkgoldenrod;
+  --list-card-title: #434a5c;
+  --list-card-title-hover: darkgoldenrod;
+  --list-card-text: #333;
+  --current-card-link: maroon;
+  /* ~~ Single Post Data ~~~ */
+  --post-header-title-color: maroon;
+  --post-meta-text-color: #333;
+  --post-meta-marker: tan;
+  /* ~~~ Footer ~~~ */
+  --footer-text-color: #333;
+  /* ~~~ Form ~~~ */
+  --input-value-color: #353535;
+  --form-label-color: #666;
+  --form-parts-bg: #dfdfdf;
+  --form-parts-bg-light: #e3e3e3;
+  --btn-text: #3d3d3d;
+  --btn-bg: #d3d3d3;
+  --btn-bdr: #dadada;
+  --active-item-bg: lightcyan;
+}
+
+:root[data-theme="dark"] {
+  /* ========== Font =========== */
+  --ft-color-default: #e8e6e5;
+  --ft-color-mid: #bfbfbf;
+  --ft-color-weak: #9f9f9f;
+  --ft-color-light-weak: #7f7f7f;
+  --ft-emphasis: gold;
+  --ft-active: royalblue;
+
+  /* ======== Titles =========== */
+  --card-title: #d3d3d3;
+  --post-title: cornsilk;
+
+  /* =========== Link =============== */
+  --link-color: #66cdaa;
+  --link-hover: orange;
+  --link-animation: orange;
+  --link-color-current: peru;
+  --link-disabled: #888;
+
+  /* ========= Background =========*/
+  --bg-default: #252727;
+  --bg-rear: #161919;
+  --bg-front: #2b2e34;
+  --selection-bg: slateblue;
+  --emphasis-bg: rgba(65, 105, 225, 0.6);
+  --active-bg: lavender;
+
+  /* ========== Border =========== */
+  --bdr-color-default: #4d4d4d;
+  --mid-bdr: #464646;
+  --thin-bdr: #414141;
+  --thin-bdr-light: #3d3d3d;
+
+  /* ====== Some Elements ======== */
+  /* ~~~ Icon ~~~ */
+  --icon-color-default: #a3a3a3;
+  --icon-color-strong: #b3b3b3;
+  --base-icon-stroke: #b6b6b6;
+  --base-icon-fill: #cfcfcf;
+  --custom-icon-fill: #888;
+  /* ~~~ Scrollbar ~~~ */
+  --scrollbar-bg: #161919;
+  --scrollbar-bdr: #434343;
+  --scrollbar-thumb-bdr: #434343;
+  --scrollbar-thumb-bg: #3f3f3f;
+  --scrollbar-thumb-hover-bg: #555;
+
+  /* ====== Component Items ======== */
+  /* ~~~ Site Item ~~~ */
+  --site-title-color: cornflowerblue;
+  --site-logo-color: #2e8b57;
+  --site-title-hover-color: orange;
+  /* ~~~ Menu Item ~~~ */
+  --aside-menu-title: #e8e6e5;
+  --aside-menu-text: #e8e6e5;
+  --aside-menu-bdr: #4c4c4c;
+  --aside-menu-bg: #252727;
+  /* ~~~ Posts List ~~~ */
+  --list-header-title-color: olivedrab;
+  --list-subtitle: #c9c9b9;
+  --list-subtitle-hover: orange;
+  --list-card-title: #e8e6e5;
+  --list-card-title-hover: orange;
+  --list-card-text: #e8e6e5;
+  --current-card-link: orange;
+  /* ~~ Single Post Data ~~~ */
+  --post-header-title-color: #e8e6e5;
+  --post-meta-text-color: #e8e6e5;
+  --post-meta-marker: slategray;
+  /* ~~~ Footer ~~~ */
+  --footer-text-color: #e8e6e5;
+  /* ~~~ Form ~~~ */
+  --input-value-color: #353535;
+  --form-label-color: #666;
+  --form-parts-bg: #dfdfdf;
+  --form-parts-bg-light: #e3e3e3;
+  --btn-text: #bfbfbf;
+  --btn-bg: #555;
+  --btn-bdr: #888;
+  --active-item-bg: lightcyan;
+}

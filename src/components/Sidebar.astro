@@ -1,0 +1,46 @@
+---
+import HomeIcon from "./icons/home-icon.svelte";
+import AddNewIcon from "./icons/add-new-icon.svelte";
+import EditSectionIcon from "./icons/add-folder-icon.svelte";
+
+const baseUrl = import.meta.env.BASE_URL;
+---
+
+<nav>
+  <div class="menu-item navi-homelink">
+    <h3 class="menu-title menu-title">
+      <a href=`${baseUrl}` class="menu-link ft-subtitle">
+        <HomeIcon />
+      </a>
+    </h3>
+  </div>
+
+  <div class="menu-item navi-add-new">
+    <h3 class="menu-title menu-title">
+      <a href=`${baseUrl}addnew/` class="menu-link ft-subtitle">
+        <AddNewIcon />
+      </a>
+    </h3>
+  </div>
+
+  <div class="menu-item edit-section">
+    <h3 class="menu-title menu-title">
+      <a href=`${baseUrl}section/` class="menu-link ft-subtitle">
+        <EditSectionIcon />
+      </a>
+    </h3>
+  </div>
+</nav>
+
+<style lang="scss">
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .menu-item {
+      height: 42px;
+    }
+  }
+</style>

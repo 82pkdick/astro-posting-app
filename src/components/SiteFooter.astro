@@ -1,0 +1,18 @@
+---
+import { default as config } from "../app-config";
+---
+
+<div class="footer-body">
+  <h5 class="site-desc fs-x08 ft-mid init-space">{config.SiteDesc}</h5>
+  <div class="copyright fs-x07 ft-midcolor">
+    {config.Copyright}
+    <span>
+      Powered by <a
+        href="https://astro.build/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="ft-midcolor">Astro</a
+      >
+    </span>
+  </div>
+</div>

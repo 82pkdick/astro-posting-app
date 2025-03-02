@@ -1,18 +1,24 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
+import CounterSvelte from "../components/CounterSvelte.svelte";
 ---
 
 <BaseLayout title="PostingApp Main">
-	<header class="list-header">
+  <header class="list-header bdr-btm">
     <div class="list-title-block">
-      <h3 class="list-title ft-list-title">記事一覧</h3>
+      <h3 class="list-title ft-list-title init-space">記事一覧</h3>
     </div>
   </header>
 
   <!-- Post List -->
-  <article id="post-article" class="article post-article type-list">
+  <article id="postArticle" class="article post-article type-list">
     <section id="post-card-list" class="post-card-list">
       <!-- map post list here -->
+      <CounterSvelte client:load />
     </section>
   </article>
 </BaseLayout>
+
+<style lang="scss">
+  
+</style>
