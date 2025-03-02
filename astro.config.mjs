@@ -5,8 +5,8 @@ import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "http://192.168.3.8/",
-  base: "/archives/markout/PostingApp",
+  site: "http://192.168.3.8/archives/markout/PostingApp",
+  base: "/",
   trailingSlash: "always",
   server: { port: 8080 },
 
